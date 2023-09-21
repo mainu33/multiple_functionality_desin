@@ -1,0 +1,187 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h5{
+	font-family: 'Roboto', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+
+/************ global css start ****************/
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+
+/************ global css end ****************/
+/************ quick web css start ************/
+
+.header{
+	width: 100%;
+	float: left;
+	border-bottom: 2px solid red;
+	padding: 15px 0px;
+}
+
+.nav{
+	width: 100%;
+	float: left;
+	text-align: right;
+	margin: 10px 0px 0px;
+}
+
+.nav li{
+	list-style: none;
+	display: inline-block;
+}
+
+.nav li a{
+	padding-left: 18px;
+	font-size: 16px;
+	font-weight: 500px;
+	color: #0F2656;
+}
+.nav li a:hover, .nav li a:focus{
+	color: #008AFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.registration-form{
+	width: 40%;
+	margin: 50px auto;
+}
+.main-form{
+	width: 100%;
+	padding: 50px;
+	background: #808080 ;
+	border: 3px solid #00ff00;
+	border-radius: 10px;
+}
+
+.main-form .avater-img{
+	width: 100%;
+	text-align: center;
+}
+
+.main-form .avater-img .avater{
+	width: 120px;
+	height: 120px;
+	border: 4px solid yellow;
+	border-radius: 100%;
+}
+.main-form h2{
+	font-size: 42px;
+	line-height: 50px;
+	color: red;
+	text-transform: uppercase;
+	font-weight: 400px;
+	text-align: center;
+	margin: 18px;
+}
+
+.main-form .form-group{
+	width: 100%;
+	margin: 12px 0px;
+}
+
+.main-form .form-group label{
+	display: block;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin: 0px 0px 3px;
+}
+
+.main-form .form-control{
+	width: 97%;
+	padding: 10px 5px;
+	font-size: 13px;
+	border: 1px solid #000;
+	border-radius: 3px;
+}
+.main-form .btn-btn{
+	padding: 10px 40px;
+	border: 1px solid #000;
+	border-radius: 3px;
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 17px 0px 0px;
+	transition: 1s;
+}
+.main-form .btn-btn:hover{
+	letter-spacing: 2px;
+	cursor: pointer;
+	border: 1px solid #000;
+	background: red;
+	text-align: center;
+}
+.social-icons{
+	width: 100%;
+	padding: 50px, 0px;
+}
+.social-icons .icons{
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+.social-icons .icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons .icons li a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 25px;
+	margin: 0px, 10px;
+	background: #808080;
+	color: red;
+	border: 1px solid #00ff00;
+	border-radius: 100%;
+}
+.social-icons .icons li a:hover, .social-icons .icons li a:focus{
+	font-size: 29px;
+	background: transparent;
+	color: red;
+	border: 2px, solid #00ff00;
+
+}
